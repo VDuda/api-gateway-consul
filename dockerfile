@@ -3,7 +3,6 @@ FROM ubuntu
 ENV CONSUL_TEMPLATE_VERSION=0.14.0
 
 # Update wget to get support for SSL
-#RUN apk --update add haproxy wget
 RUN apt-get update && apt-get install haproxy wget unzip -y
 
 # Download consul-template
