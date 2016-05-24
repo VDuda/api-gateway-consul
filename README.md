@@ -17,5 +17,5 @@ docker run -d -e SERVICE_NAME=rest --name=rest00c9f113d71e -p 80:80 -p 1936:1936
 ```
 You must expose port 80 and 1936. Port 80 is used for HTTP requests and Port 1936 is used for HAProxy monitoring
 
-#TODO(Vlad): Add or tokenize the password for HAProxy monitoring
-#TODO(Vlad): Add Healthcheck
+- TODO(Vlad): Add or tokenize the password for HAProxy monitoring
+- TODO(Vlad): Add Healthcheck
